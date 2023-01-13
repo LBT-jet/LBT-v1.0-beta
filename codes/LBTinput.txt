@@ -1,0 +1,53 @@
+//...Masterswitch
+LBTswitch  //switch on/off Linear Boltzmann Transport
+1
+Kradiation  //radiation switch
+1
+Kprimary  //only include primary propagation, the partons radiated and excited stay where they are 
+0
+Kfishbone  //only include primary interaction, partons from the main tree will propagate but not interact with the medium 
+0
+tauswitch  //switch to tau-eta coordinate (default t-z coordinate)
+0
+switchCoLBT_Hydro  //design for CoLBT_Hydro model
+0
+Ecut  //energy cut (for free streaming particles or hydro source term)
+0.0
+switchtwcoll  //energy cut (for free streaming particles or hydro source term)
+1
+Kqhat0  //Debye screening mass setting
+2
+alphas  //Kalphas   //strong coupling constant setting
+0.3
+ncall   nprint   NUM1  //...regular MC control
+10000    1         -139
+time0     timend     dt  //dt means dtau if tauswitch is on
+0.0       4.0       0.1
+switchsingle  //switch for the single parton test
+1
+NRcut     NScut
+100       100
+switchphasecut    collenercut   collthetacut   radenercut   radthetacut //phase space cut
+0                 1000.0        1000.0         1000.0       1000.0
+Singlestepswitch   Force22    Force23   Force2n  radlength//single interaction test
+0                  1          1         1        4.0
+ExchangeIDswitch
+1
+ener     mass     Kjet     px0     py0     pz0     en0     Xinitial    Yinitial     Zinitial  //only work if(switchsingle==1) //single parton setting
+100.0    0.0      21       0.0     100.0   0.0     100.0   0.0         0.0          0.0
+switchmedium  //switch for artificial(uniform or static) medium
+1
+temp0medium    VXmedium    VYmedium     VZmedium  //only work if(switchmedium==1) //artificial medium setting  //...flow velocity setting
+0.3            0.0         0.0          0.0
+tau0     tauend     dtau  //only work if(tauswitch==1)  //...tau-eta coordinate
+0.2      10.0       0.1
+tauhydro0      nxhydro      nyhydro      netahydro      dtauhydro  //...Hydroprofile setting
+0.2            73           73           33             0.3	 
+
+
+readindatafile_route
+/home/yayun/August-gammajet/2.76/Hydro/030/readindatafile
+
+
+
+
