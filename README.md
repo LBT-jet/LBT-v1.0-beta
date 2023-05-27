@@ -20,7 +20,7 @@ Then the executive $\textit{lbt}$ can be run on the computer.
 
 
 ## Parameters
-The parameter settings that a new user can adjust is in the codes/LBTinput.txt. Currently, it's only for a static and uniform medium. For a more realistic ideal/viscous hydro background, one's has to modify the interface in codes/LBT.cpp. 
+The parameter settings that a new user can adjust is in the codes/LBTinput.txt. The current setting is for a static and uniform medium. For a more realistic ideal/viscous hydro background, one can download the Hydro proffile at . 
 
 ## Run an example
 Here is a simple example for a single jet shower parton propagation in a uniform and static medium.
