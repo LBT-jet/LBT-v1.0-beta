@@ -1,0 +1,33 @@
+Init:showProcesses = off
+Init:showMultipartonInteractions = off
+Init:showChangedSettings = off
+Init:showChangedParticleData = off
+Stat:showProcessLevel = off
+Stat:showErrors = off
+
+Beams:idA = 2212
+Beams:idB = 2212
+Beams:eCM = 5020.
+
+Main:numberOfEvents = 10
+
+ProcessLevel:all = on
+ProcessLevel:resonanceDecays = off
+
+PartonLevel:all = on
+PartonLevel:MPI = on 
+PartonLevel:ISR = on
+PartonLevel:FSR = on
+PartonLevel:FSRinProcess = on
+PartonLevel:FSRinResonances = on
+PartonLevel:earlyResDec = off
+PartonLevel:Remnants = on
+
+HadronLevel:all = off
+
+HardQCD:all = on
+PhaseSpace:pTHatMin = 20 
+PhaseSpace:pTHatMax = 500
+
+Random:setSeed = on
+Random:Seed = 1
