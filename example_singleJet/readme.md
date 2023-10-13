@@ -4,10 +4,10 @@ We add smooth hydro profiles for Pb+Pb 5.02 TeV 0-10% collisions in this project
 
 It's simple to run the LBT codes. Here are the steps:
 
-1 make clean && make
-2 modify parameters in m01.cmnd for pp collisions and LBT.in for AA collisions, and make sure the number of events is the same for both pp and AA
+1. make clean && make
+2. modify parameters in m01.cmnd for pp collisions and LBT.in for AA collisions, and make sure the number of events is the same for both pp and AA
 modify the path for scattering rate tables and hydro profiles
-3 ./lbt
+3. ./lbt
 The output files are pp.txt for pp collisions, positive.txt and negative.txt for AA collisions.
 
 To analyze the final particles, calculate the pT spectrum for jets as an example in dNdpT.cc
