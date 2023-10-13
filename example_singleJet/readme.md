@@ -8,8 +8,8 @@ It's simple to run the LBT codes. Here are the steps:
 
 1. make clean && make
 2. modify parameters in m01.cmnd for pp collisions and LBT.in for AA collisions, and make sure the number of events is the same for both pp and AA
-modify the path for scattering rate tables and hydro profiles
-3. ./lbt
+3. modify the path for scattering rate tables and hydro profiles
+4. ./lbt
 
 The output files are pp.txt for pp collisions, positive.txt and negative.txt for AA collisions.
 
