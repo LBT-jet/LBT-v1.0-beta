@@ -10,6 +10,7 @@ It's simple to run the LBT codes. Here are the steps:
 2. modify parameters in m01.cmnd for pp collisions and LBT.in for AA collisions, and make sure the number of events is the same for both pp and AA
 modify the path for scattering rate tables and hydro profiles
 3. ./lbt
+
 The output files are pp.txt for pp collisions, positive.txt and negative.txt for AA collisions.
 
 To analyze the final particles, calculate the pT spectrum for jets as an example in dNdpT.cc
@@ -17,6 +18,7 @@ To analyze the final particles, calculate the pT spectrum for jets as an example
 1. modify the path of the final particles, the number of events in dNdpT.cc
 2. make clean && make
 3. ./dNdpT
+   
 One should note that the back reaction in negative.txt should be subtracted during jet reconstruction.
 
 For the use of the LBT model, please kindly cite our papers:
