@@ -29,4 +29,4 @@ Here is a simple example for a single jet shower parton propagation in a uniform
 2. make clean and make
 3. ./lbt
 
-There is also an example for single jet calculation with hydro background. Please check it in the folder of Single_Jet
+There is also an example for single jet calculation with hydro background. Please check it in the folder of example_singleJet
