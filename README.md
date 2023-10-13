@@ -14,17 +14,19 @@ It's easy to install the LBT codes on one's computer or the server. The codes ha
 
 1. Download or git clone the repository to one's directory.
 2. cd codes
-3. make
+3. make clean && make
 
 Then the executive $\textit{lbt}$ can be run on the computer.
 
 
 ## Parameters
-The parameter settings that a new user can adjust is in the codes/LBTinput.txt. The current setting is for a static and uniform medium. For a more realistic ideal/viscous hydro background, one can download the Hydro proffile at . 
+The parameter settings that a new user can adjust is in the codes/LBTinput.txt. The current setting is for a static and uniform medium. For a more realistic ideal/viscous hydro background, one can download the Hydro profile at https://figshare.com/articles/dataset/LBT_codes_analysis_codes_for_dNdpT_scattering_rate_tables_and_hydro_profiles/24305632 . 
 
 ## Run an example
 Here is a simple example for a single jet shower parton propagation in a uniform and static medium.
 
 1. cd ./examples/codes
-2. make
+2. make clean and make
 3. ./lbt
+
+There is also an example for single jet calculation with hydro background. Please check it in the folder of Single_Jet
