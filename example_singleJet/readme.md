@@ -12,20 +12,20 @@ The output files are pp.txt for pp collisions, positive.txt and negative.txt for
 
 To analyze the final particles, calculate the pT spectrum for jets as an example in dNdpT.cc
 
-1 modify the path of the final particles, the number of events in dNdpT.cc
-2 make clean && make
-3 ./dNdpT
+1. modify the path of the final particles, the number of events in dNdpT.cc
+2. make clean && make
+3. ./dNdpT
 One should note that the back reaction in negative.txt should be subtracted during jet reconstruction.
 
 For the use of the LBT model, please kindly cite our papers:
-1 LBT elastic and recoil: https://arxiv.org/abs/1503.03313
-2 LBT radiation and applications: https://arxiv.org/abs/2306.13742
+1. LBT elastic and recoil: [https://arxiv.org/abs/1503.03313](https://arxiv.org/abs/1503.03313)
+2. LBT radiation and applications: https://arxiv.org/abs/2306.13742
 
 For more detailed calculations of single jet suppression and jet anisotropy flow in the LBT, one can refer
-1 single jet: https://arxiv.org/abs/1809.02525
-2 jet anisotropy: https://arxiv.org/abs/2201.08408
+1. single jet: https://arxiv.org/abs/1809.02525
+2. jet anisotropy: https://arxiv.org/abs/2201.08408
 
 The hydro profiles are generated within CLVisc hydrodynamic model, one can refer
-1 https://arxiv.org/abs/1411.7767
-2 https://arxiv.org/abs/1205.5019
+1. https://arxiv.org/abs/1411.7767
+2. https://arxiv.org/abs/1205.5019
 3 https://arxiv.org/abs/1802.04449
