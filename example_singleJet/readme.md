@@ -25,9 +25,9 @@ For the use of the LBT model, please kindly cite our papers:
 1. LBT elastic and recoil: https://arxiv.org/abs/1503.03313
 2. LBT radiation and applications: https://arxiv.org/abs/2306.13742
 
-For more detailed calculations of single jet suppression and jet anisotropy flow in the LBT, one can refer
-1. single jet: https://arxiv.org/abs/1809.02525
-2. jet anisotropy: https://arxiv.org/abs/2201.08408
+For more detailed calculations of single jet suppression and jet anisotropic flow in the LBT, one can refer
+1. single jet suppression: https://arxiv.org/abs/1809.02525
+2. jet anisotropic flow: https://arxiv.org/abs/2201.08408
 
 The hydro profiles are generated within CLVisc hydrodynamic model, one can refer
 1. https://arxiv.org/abs/1411.7767
