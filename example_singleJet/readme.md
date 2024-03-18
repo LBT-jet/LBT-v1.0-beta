@@ -2,7 +2,7 @@ This interface in main.cpp is well written so that parton showers generated from
 
 We add smooth hydro profiles for Pb+Pb 5.02 TeV 0-10% collisions in this project. Hydro profiles for other center-of-mass energy and centrality bins will be uploaded in a few weeks.
 
-For additional tables, please download them from https://figshare.com/articles/dataset/LBT_codes_analysis_codes_for_dNdpT_scattering_rate_tables_and_hydro_profiles/24305632
+Additional tables will be uploaded later.
 
 It's simple to run the LBT codes. Here are the steps:
 
