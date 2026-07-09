@@ -1,0 +1,10 @@
+1. pull the remote to the fork to make them the same
+git pull --rebase upstream main
+
+2. make some changes in the fork and push to the fork
+git add .
+git commit
+git push
+
+3. push the fork to the remote for merge
+git push upstream main
