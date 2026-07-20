@@ -8,3 +8,9 @@ git push
 
 3. push the fork to the remote for merge
 git push upstream main
+
+
+Reset wrong commit:
+1. git fetch origin
+
+2. git reset --soft origin/main
