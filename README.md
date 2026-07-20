@@ -12,21 +12,13 @@ The LBT project was initiated and conducted by Prof. Xin-Nian Wang, a senior sci
 ## Installation
 It's easy to install the LBT codes on one's computer or the server. The codes have integrated with PYTHIA 8 and CERN ROOT, so one has to install them at first. I have also placed a clean version free from them, see examples. Since the size of radiation table excesses the limit for uploading, anyone who wants to run the LBT codes can contact the authors.
 
-1. Download or git clone the repository to one's directory.
+1. Download or git clone the repository to one's directory. One should also install CERN ROOT and FASTJET to analyze jet observables.
 2. cd codes
 3. make clean && make
 
 Then the executive $\textit{lbt}$ can be run on the computer.
 
 
-## Parameters
-The parameter settings that a new user can adjust is in the codes/LBTinput.txt. The current setting is for a static and uniform medium. For a more realistic ideal/viscous hydro background, one can download the Hydro profile at https://figshare.com/articles/dataset/LBT_codes_analysis_codes_for_dNdpT_scattering_rate_tables_and_hydro_profiles/24305632 . 
+## Reproduce LBT results
+The full codes are published in the folder LBT_v1/2024, for whom interested in the inelastic scatterings in a uniform and static QCD medium.
 
-## Run an example
-Here is a simple example for a single jet shower parton propagation in a uniform and static medium.
-
-1. cd ./examples/codes
-2. make clean and make
-3. ./lbt
-
-There is also an example for single jet calculation with hydro background. Please check it in the folder of example_singleJet
